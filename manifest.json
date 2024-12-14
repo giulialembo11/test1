@@ -1,0 +1,44 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://example.com/iiif/manifest/M6L_PC_0021_1",
+    "label": "M6L_PC_0021_1",
+    "type": "Manifest",
+    "metadata": [
+        {
+            "label": "Creator",
+            "value": "Unknown"
+        },
+        {
+            "label": "Date",
+            "value": "1900s"
+        }
+    ],
+    "sequences": [
+        {
+            "label": "Current view",
+            "type": "Sequence",
+            "canvases": [
+                {
+                    "@id": "https://example.com/iiif/canvas/M6L_PC_0021_1",
+                    "type": "Canvas",
+                    "label": "Canvas 1",
+                    "width": 1024,
+                    "height": 768,
+                    "images": [
+                        {
+                            "@id": "https://example.com/iiif/image/M6L_PC_0021_1/full/full/0/default.jpg",
+                            "type": "Image",
+                            "resource": {
+                                "@id": "https://m6lshowcase.com/wp-content/uploads/tainacan-items/90/2245/M6L_PC_0021_1.jpeg",
+                                "format": "image/jpeg",
+                                "height": 768,
+                                "width": 1024
+                            },
+                            "on": "https://example.com/iiif/canvas/M6L_PC_0021_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
